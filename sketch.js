@@ -14,7 +14,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(640, 640);
+  createCanvas(640, 600);
   amp = new p5.Amplitude();
   currentSong = song1;
 
