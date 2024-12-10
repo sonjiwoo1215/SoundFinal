@@ -50,7 +50,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,182,194);
+  background(255,182,193);
   
   let vol = amp.getLevel();
   circleSize = map(vol, 0, 0.3, 100, 400)*4;
