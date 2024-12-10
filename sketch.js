@@ -23,7 +23,7 @@ function setup() {
     "Song 2": song2,
   };
 
-  playButton = createButton("재생");
+  playButton = createButton("PLAY");
   playButton.position(10, 660);
   playButton.mousePressed(togglePlay);
 
@@ -50,7 +50,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,182,193);
+  background(255,182,194);
   
   let vol = amp.getLevel();
   circleSize = map(vol, 0, 0.3, 100, 400)*4;
