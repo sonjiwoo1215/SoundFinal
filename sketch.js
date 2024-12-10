@@ -14,7 +14,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(640, 600);
+  createCanvas(640, 640);
   amp = new p5.Amplitude();
   currentSong = song1;
 
@@ -23,7 +23,7 @@ function setup() {
     "Song 2": song2,
   };
 
-  playButton = createButton("PLAY");
+  playButton = createButton("재생");
   playButton.position(10, 660);
   playButton.mousePressed(togglePlay);
 
